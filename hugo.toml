@@ -1,9 +1,12 @@
-baseurl = "http://www.example.com"
+baseurl = "https://jollista.github.io/portfolio"
 title = "Juniper Watson"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [pagination]
 pagerSize = 20
