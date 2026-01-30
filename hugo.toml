@@ -1,0 +1,63 @@
+baseurl = "http://www.example.com"
+title = "Juniper Watson"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Juniper Watson"
+  info = "Programmer, Software Engineer, etc."
+  description = "Juniper's portfolio website"
+  keywords = "developer,personal"
+  avatarurl = "/images/ghicon.png"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "light"
+  hidecolorschemetoggle = true
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "GitHub"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/jollista/"
+[[params.social]]
+  name = "itch.io"
+  icon = "fa-brands fa-itch-io fa-2x"
+  weight = 2
+  url = "https://jollista.itch.io/"
+
+# Menu links
+[[menu.main]]
+  name = "Resume"
+  weight = 1
+  url  = "resume"
