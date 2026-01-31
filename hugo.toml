@@ -23,7 +23,7 @@ style = "github-dark"
   info = "Programmer, Software Engineer, etc."
   description = "Juniper's portfolio website"
   keywords = "developer,personal"
-  avatarurl = "/images/ghicon.png"
+  avatarurl = "images/ghicon.png"
   #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
